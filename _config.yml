@@ -1,5 +1,6 @@
 # Site
-repository: Opiyo-5678/modern_resume
+repository: Opiyo-5678/portfolio_machine_learning
+
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -12,7 +13,7 @@ email: austineopiyo84@gmail.com
 # email_title: Email (Email title override)
 phone: +254 113449850
 # phone_title: Phone (Phone title override)
-website: https://github.com/Opiyo-5678/modern-resume-theme
+website: https://github.com/Opiyo-5678/portfolio_machine_learning
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -155,7 +156,7 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+- jekyll-seo-tag
 
 exclude : [
   "Gemfile",
