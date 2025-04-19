@@ -1,43 +1,43 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: Opiyo-5678/modern_resume
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Austine Opiyo
+title: Machine Learning Engineer | AI Developer
+email: austineopiyo84@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: +254 113449850
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: https://github.com/Opiyo-5678/modern-resume-theme
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+#twitter_username: Austine622630
+github_username:  https://github.com/Opiyo-5678
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+facebook_username: https://www.facebook.com/profile.php?id=100075290277507
+#flickr_username: jekyll
+#instagram_username: Austine_Opiyo
+linkedin_username: https://www.linkedin.com/in/austine-opiyo-38b77a293/
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: Austine Opiyo
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+#additional_links:
+- #title: Link name
+  #icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+ # url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,67 +50,98 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image:  images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
-
+    Passionate Machine Learning Engineer with expertise in developing AI solutions for real-world problems. Specialized in time-series forecasting, computer vision, and deploying scalable ML models.
+    Key strengths:
+  - Strong Python programming skills
+  - Experience with TensorFlow/PyTorch
+  - Data preprocessing and feature engineering
+  - Cloud deployment (AWS/GCP)
+  - End-to-end project implementation
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        #border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+    -name: "Nairobi Air Quality Prediction System"
+    description: "Machine learning solution for urban pollution monitoring and forecasting"
+    highlights:
+    - "Developed production-ready ETS time-series model with 85% prediction accuracy (20% improvement over baseline)"
+    - "Engineered critical temporal features: 7-day rolling averages, holiday indicators, and meteorological lag variables"
+    - "Built end-to-end pipeline from raw sensor data to actionable insights via Flask API"
+    - "Visualized high-risk pollution zones for Nairobi County officials using interactive Folium maps"
+    github_link: "https://github.com/Opiyo-5678/nairobi_air_prediction"
+    tags:
+    - "Python"
+    - "Time-Series Forecasting"
+    - "Flask API"
+    - "Environmental AI"
+    - "Data Storytelling"
+    additional_links:
+    - title: GitHub Repository
+      icon: fab fa-github
+      url: https://github.com/Opiyo-5678/nairobi_air_prediction
+    - title: Technical Documentation
+      icon: fas fa-file-alt
+      url: https://github.com/Opiyo-5678/nairobi_air_prediction/blob/main/README.md
+    quote: "Transforming sensor data into public health decisions"
+    description: |
+     **Core Innovation:**  
+    - First open-source air quality model specifically calibrated for Nairobi's unique topography and pollution patterns  
+    
+     **Technical Achievements:**  
+    - Reduced prediction error by 35% through custom seasonal decomposition  
+    - Automated data validation pipeline handling 15,000+ hourly sensor readings  
+    - Dockerized deployment for cloud scalability (AWS ECS compatible)
+  - name: "Mataagari Ventures - Automotive Lighting E-commerce"
+    description: "Online store specializing in premium vehicle lighting solutions (headlights, taillights, fog lights, LED bars)."
+    highlights:
+    - "Built a high-conversion WooCommerce store with customized product filters for vehicle compatibility (make/model/year)."
+    - "Implemented SEO optimization that increased organic traffic by 40% for 'car LED headlights Kenya' searches."
+    - "Integrated MPesa payment gateway with automated receipt generation, reducing checkout friction by 35%."
+    - "Developed interactive product comparison tools helping customers choose between halogen/Xenon/LED options."
+    link: "https://mataagariventures.co.ke/"
+    link_text: "Live Store"
+    tags:
+    - "E-commerce"
+    - "WooCommerce"
+    - "Automotive Tech"
+    - "SEO"
+    - "Payment Gateways"
+  # - title: Experience
+  #   layout: list
+  #   content:
+  #     - layout: right
+  #       title: Company name
+  #       sub_title: Job title
+  #       caption: Date Range (eg. November 2016 - present)
+  #       link: Link to company (optional)
+  #       quote: >
+  #         Short description of the company (optional)
+  #       description: | # this will include new lines to allow paragraphs
+  #         Description of role
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Pwani University
+        sub_title: BSc in Computer Science | Machine learning & AI Focus
+        caption: 2021 - 2025
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+          Machine Learning, Data Structures, Algorithms
+       # description: | # this will include new lines to allow paragraphs
+         # Description of qualification
+  - title: Technical Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
+          **Machine Learning**: Python, TensorFlow, PyTorch, Scikit-learn, Time-Series Forecasting  
+          **Data Engineering**: Pandas, NumPy, SQL, Data Visualization  
+          **Backend Development**: Flask, REST APIs, Docker  
+          **Cloud Platforms**: AWS, GCP (Basic)  
+          **Tools**: Git, Jupyter Notebooks, Linux
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
